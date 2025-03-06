@@ -1,4 +1,4 @@
-//! Async programming:
+//! Async programming: exercise in async programming!
 
 //* first function to run:
 console.log("Hello World 1");

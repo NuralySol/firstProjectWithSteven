@@ -4,13 +4,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Pokemon Generator</title>
 </head>
 
 <body>
-    <h1>Pokemon Generator</h1>
-    <button id="btn">Fetch Pokemon</button>
-    <img id="pokemon"></img>
+
+    <header>
+        <h1>Pokemon Generator</h1>
+    </header>
+
+    <div class="generator-container">
+        <div class="pokemon-container">
+            <img id="pokemon"></img>
+        </div>
+
+
+        <div>
+
+            <div class="button-container">
+                <button id="btn">⚽</button>
+                <button id="stone">🪨</button>
+                <button id="catch">🎣</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- two divs to hold the team-container and the oponent-container -->
+
+    <div id="teams">
+        <div class="team-container">
+
+        </div>
+
+        <div class="oponent-container">
+
+        </div>
+    </div>
+
     <script src="pokemonAPI.js"></script>
 </body>
 
